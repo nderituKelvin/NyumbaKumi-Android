@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearChatView"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <RelativeLayout
+            android:id="@+id/hosrizontalLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/chatNameOfMember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/names"
+                android:textAlignment="viewStart"
+                android:layout_toStartOf="@id/theTime"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/colorPeace"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/theTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@string/time"
+                android:textColor="@color/colorPeace"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/theTextMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send_message"
+            android:textAlignment="center"
+            android:textColor="@color/colorPeace"
+            android:textSize="19sp" />
+</LinearLayout>

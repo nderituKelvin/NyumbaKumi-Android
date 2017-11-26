@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_launcher_background">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.kenya.nyumbakumi.AdminRegister">
+
+        <ImageView
+            android:layout_height="100dp"
+            android:layout_width="200dp"
+            android:src="@drawable/unnamed"
+            android:id="@+id/imgRegister"
+            android:contentDescription="@string/kenyan_court_of_arms"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/adminRegisterPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/phone_number"
+            android:textColorHint="@color/colorPeace"
+            android:inputType="phone"
+            android:textColor="@color/colorPeace"
+            android:maxLength="13"
+            android:shadowColor="@color/colorPeace" />
+
+        <EditText
+            android:id="@+id/adminRegisterEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/email"
+            android:textColorHint="@color/colorPeace"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorPeace"
+            android:maxLength="25"
+            android:shadowColor="@color/colorPeace" />
+
+        <EditText
+            android:id="@+id/adminRegisterNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/names"
+            android:textColorHint="@color/colorPeace"
+            android:inputType="textAutoCorrect"
+            android:textColor="@color/colorPeace"
+            android:maxLength="30"
+            android:shadowColor="@color/colorPeace" />
+
+        <EditText
+            android:id="@+id/adminRegisterIdno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/idnumber"
+            android:textColorHint="@color/colorPeace"
+            android:inputType="number"
+            android:textColor="@color/colorPeace"
+            android:maxLength="10"
+            android:shadowColor="@color/colorPeace" />
+
+        <EditText
+            android:id="@+id/adminRegisterNyumbaKumiName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="@string/nyumbakuminame"
+            android:textColorHint="@color/colorPeace"
+            android:inputType="textAutoCorrect"
+            android:textColor="@color/colorPeace"
+            android:maxLength="10"
+            android:shadowColor="@color/colorPeace" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@android:drawable/ic_menu_camera"
+            android:contentDescription="@string/selectToChangeImage"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/adminButtonRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/register"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPeace"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</ScrollView>

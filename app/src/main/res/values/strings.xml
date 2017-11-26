@@ -1,0 +1,36 @@
+<resources>
+    <string name="rootUrl">http://192.168.2.181:8080/nyumbakumi/public/</string>
+    <string name="app_name">Nyumba Kumi Kenya</string>
+    <string name="nyumbakumi">Nyumba Kumi</string>
+    <string name="meru_county">Meru County</string>
+    <string name="kenyan_court_of_arms">Kenyan Court of Arms</string>
+    <string name="login">Login</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="id_number">ID Number</string>
+    <string name="register_as_admin">Register as Admin</string>
+    <string name="email">Email</string>
+    <string name="names">Names</string>
+    <string name="idnumber">Id Number</string>
+    <string name="nyumbakuminame">Nyumba Kumi Name</string>
+    <string name="selectToChangeImage">Select To Change Image</string>
+    <string name="register">Register</string>
+    <string name="registerPromptQuestion">By Registering, Your Previous Account will get Deleted(If you had one)</string>
+    <string name="send">Send</string>
+    <string name="service_provider">Service Provider</string>
+    <string name="view_members">View Members</string>
+    <string name="addMember">Add Member</string>
+    <string name="add_service">Add Service</string>
+    <string name="manage_services">Manage Services</string>
+    <string name="add_member">Add Member</string>
+    <string name="add_service_provider">Add Service Provider</string>
+    <string name="company_phone_number">Company Phone Number</string>
+    <string name="select_service_type">Select Service Type</string>
+    <string name="enterMessageToSendHere">Enter Message To Send Here</string>
+    <string name="send_message">Send Message</string>
+    <string name="select_company">Select Company</string>
+    <string name="remove">Remove</string>
+    <string name="company_name">Company Name</string>
+    <string name="company_phone">Company Phone</string>
+    <string name="time">Time</string>
+    <string name="entermessage">Enter Message</string>
+</resources>

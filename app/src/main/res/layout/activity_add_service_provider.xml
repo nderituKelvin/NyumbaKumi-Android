@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_launcher_background">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.kenya.nyumbakumi.AddServiceProvider">
+
+        <ImageView
+            android:layout_height="100dp"
+            android:layout_width="200dp"
+            android:src="@drawable/unnamed"
+            android:id="@+id/imgAddMember"
+            android:contentDescription="@string/kenyan_court_of_arms"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/addCompanyPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textAlignment="center"
+            android:hint="@string/company_phone_number"
+            android:textColorHint="@color/colorPeace"
+            android:inputType="phone"
+            android:textColor="@color/colorPeace"
+            android:maxLength="13"
+            android:shadowColor="@color/colorPeace" />
+
+        <EditText
+            android:id="@+id/addCompanyNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textAlignment="center"
+            android:hint="@string/company_name"
+            android:textColorHint="@color/colorPeace"
+            android:inputType="textAutoCorrect"
+            android:textColor="@color/colorPeace"
+            android:maxLength="30"
+            android:shadowColor="@color/colorPeace" />
+
+        <Spinner
+            android:id="@+id/serviceCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/select_service_type"
+            android:textAlignment="center"
+            android:scrollbarSize="30dp"
+            />
+
+        <Button
+            android:id="@+id/addServiceProviderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/add_service_provider"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPeace"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+</ScrollView>
